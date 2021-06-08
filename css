@@ -1,1 +1,13 @@
 
+body {
+  margin: 13px;
+}
+
+.row div {
+  border: 1px solid transparent;
+  padding: 6px;
+}
+
+body.debug .row div {
+  border: 1px solid cyan;
+}
